@@ -8,41 +8,44 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <footer class="bg-[#659f8f] dark:bg-[#313131]">
+    <footer class="bg-[#489E97] dark:bg-[#489E97]">
         <div class="container">
-            <footer class="bg-[#659f8f] dark:bg-[#313131]">
-                <div class="container px-6 py-12 mx-auto">
-                    <div class="grid">
+            <footer class="bg-[#489E97] dark:bg-[#489E97]">
+                <div class="container mx-auto py-14 px-6">
+                    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
                         <div class="sm:col-span-2">
-                            <h1 class="max-w-lg" >Subscribe.</h1>
-                            <div class="flex">
-                                <input id="email" type="text">
-                                <button class="w-full px-6 py-2.5 bg-white">
+                            <h1 class="max-w-lg text-xl font-semibold tracking-tight text-[#313131] xl:text-2xl dark:text-" >Subscribe to our newsletter for updates.</h1>
+                            <div class="flex flex-col mt-6 space-y-3 md:flex-row md:space-y-0 md:space-x-4">
+                                <input id="email"
+                                type="text" 
+                                class="rounded-full px-4 py-2 focus:outline-none"
+                                placeholder="Email Address">
+                                <button class="dark:bg-[#db682e] text-white px-4 py-2 rounded-full font-bold">
                                     Subscribe
                                 </button>
                             </div>
                         </div>
                         <div>
-                            <p class="text-[#313131]">Quick Link</p>
-                            <div class="flex">
-                                <a href="#">Home</a>
-                                <a href="#">Who We Are</a>
-                                <a href="#">Our Philosophy</a>
+                            <p class="text-[#303233] font-bold mb-4">Quick Link</p>
+                            <div class="flex flex-col space-y-2">
+                                <a href="#" class="text-[#313131] hover:underline">Home</a>
+                                <a href="#" class="text-[#313131] hover:underline">Who We Are</a>
+                                <a href="#" class="text-[#313131] hover:underline">Our Philosophy</a>
                             </div>
                         </div>
                         <div>
-                            <p class="text-[#313131]">Technologies</p>
-                            <div class="">
-                                <a href="#">HTML</a>
-                                <a href="#">CSS</a>
-                                <a href="#">JavaScript</a>
+                            <p class="text-[#303233] font-bold mb-4">Technologies</p>
+                            <div class="flex flex-col space-y-2">
+                                <a href="#" class="text-[#313131] hover:underline">HTML</a>
+                                <a href="#" class="text-[#313131] hover:underline">CSS</a>
+                                <a href="#" class="text-[#313131] hover:underline">JavaScript</a>
                             </div>
                         </div>
                     </div>
                     
                     <hr class="my-6 border-[#d86943]">
                     
-                    <div class="flex">
+                    <div class="flex items-center justify-between"">
                         <a href="#">
                             <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
                         </a>

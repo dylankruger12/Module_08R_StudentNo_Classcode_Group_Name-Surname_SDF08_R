@@ -42,7 +42,7 @@ This guide will walk you through transforming the starter code into a complete, 
 2. **Style the Links:** For each `a` tag within these sections, add classes for text color, hover, and underline effects.
 #### Step 4: Responsive Adjustments
 
-1. **Flexbox for Mobile Views:** In the container `div` of the subscription section, update the `div` with the `flex` class to have a vertical layout on mobile and a horizontal layout on larger screens: `class="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row"`.
+1. **Flexbox for Mobile Views:** In the container `div` of the subscription section, update the `div` with the `flex` class to have a vertical layout on mobile and a horizontal layout on larger screens: ``class="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row".
 2. **Adjusting Grid Columns:** Ensure that the grid columns are set to span appropriately on different screen sizes using Tailwind's responsive prefixes (e.g., `sm:col-span-2`).
 
 #### Step 5: Styling the Footer Bottom Section
